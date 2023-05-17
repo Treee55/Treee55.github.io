@@ -1,7 +1,13 @@
-hi {
-    color: red;
+h1 {
+    color: lightblue;
 }
-
+p {
+    color: black;
+    font-family: courier;
+    font-size: 120%;
+    border: 2px solid black; /* corrected border declaration */
+    padding: 60px; /* corrected margin declaration */
+}
 body {
-    background-color: black;
+    background-color: blanchedalmond;
 }
