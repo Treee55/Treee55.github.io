@@ -1,4 +1,7 @@
+const menu = document.querySelector('#mobile-menu')
+const menuLinks = document.querySelector('.navbar_menu')
 
-function alertButton(){
-    alert("Button works correctly!\nemail: parkerspaan@yahoo.com")
-}
+menu.addEventListener('click',function(){
+    menu.classList.toggle('is-active');
+    menuLinks.classList.toggle('active');
+});
