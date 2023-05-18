@@ -125,6 +125,7 @@
         transition: all 0.4s ease;
         height: 50vh;
         z-index: -1;
+        background-color: #131313;
     }
 
     .navbar__menu.active{
@@ -171,7 +172,7 @@
         padding-bottom: 2rem;
     }
     .button{
-        display:flex;
+        display: flex;
         justify-content: center;
         align-items: center;
         width: 80%;
@@ -196,3 +197,24 @@
     }
     
 }
+
+
+/* Hero Section CSS */
+.main{
+    background-color: #141414;
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: #141414;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
