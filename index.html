@@ -1,27 +1,33 @@
 <!DOCTYPE html>
-<html>
-
+<html lang = "en">
     <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport"
+        content="width=device-width,
+        initial-scale=1.0" />
+        <title>Parker Spaan</title>
         <link rel="stylesheet" href="web.css"/>
     </head>
 
 <body>
-
-<h1>Parker Spaan</h1>
-
-<p>This website is a work in progress. As of now this website is simply figuring out JavaScript
-    and HTML with CSS.
-</p>
-
-
-<button onClick ="alertButton()">Click Me</button>
-
-
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="/" id="navbar_logo">PARKER SPAAN </a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">HOME</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/personal.html" class="navbar__links">Personal</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
 </body>
-<img src="image.png" width="400" height="400">
-
-
-<script src="web.js"></script> 
-
-
 </html>
