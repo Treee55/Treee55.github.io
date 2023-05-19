@@ -393,10 +393,6 @@
     color: #fff;
 }
 
-.services__card:nth-child(2) {
-    background-image: linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/images/image2.jpg');
-}
-
 .services h2{
     position: absolute;
     top: 350px;
@@ -424,6 +420,11 @@
 }
 
 .services__card:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.services__btn:hover {
     transform: scale(1.075);
     transition: 0.2s ease-in-out;
     cursor: pointer;
