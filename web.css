@@ -424,9 +424,28 @@
     transition: 0.2s ease-in-out;
     cursor: pointer;
 }
-.services__btn:hover {
+
+.buttonL {
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    text-decoration: none;
+    padding: 10px 10px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #f77062;
+    color: #fff;
+}
+
+.buttonL:hover {
+    background: #f546d8;
+    transition: all 0.3s ease;
     transform: scale(1.075);
     transition: 0.2s ease-in-out;
-    cursor: pointer;
+    cursor: grab;
 }
+
 
