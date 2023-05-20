@@ -427,7 +427,7 @@
 
 .buttonL {
     display: flex;
-    justify-content: center;
+    justify-content: relative;
     align-items: last baseline;
     text-decoration: none;
     padding: 10px 10px;
@@ -445,7 +445,5 @@
     transition: all 0.3s ease;
     transform: scale(1.075);
     transition: 0.2s ease-in-out;
-    cursor: grab;
+    cursor: pointer;
 }
-
-/*Add back the second picture as it is just hsowing two of the same rn*/
