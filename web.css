@@ -377,7 +377,7 @@
 
 .services__container {
     display: flex;
-    justify-content: center;
+    justify-content: relative;
     flex-wrap: wrap;
 }
 
@@ -407,7 +407,7 @@
 
 .services__card button {
     color: #fff;
-    padding: 10px 40px;
+    padding: 10px 20px;
     border: none ;
     outline: none;
     border-radius: 4px;
