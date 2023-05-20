@@ -405,18 +405,19 @@
     left: 30px;
 }
 
-.services__card .buttonL { /* Change selector from .services__card button to .services__card .buttonL */
-    color: #fff;
-    padding: 10px 20px;
+.services__card .buttonL { /* Change selector from .buttonL to .services__card .buttonL */
+    display: flex;
+    justify-content: relative;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    height: 100%;
+    width: 100%;
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #3135f5;
-    position: absolute;
-    top: 440px;
-    left: 10px;
-    font-size: 1rem;
-    cursor: pointer;
+    background: #f77062;
+    color: #fff;
 }
 
 .services__card:hover {
@@ -428,7 +429,7 @@
 .buttonL {
     display: flex;
     justify-content: relative;
-    align-items: last baseline;
+    align-items: relative;
     text-decoration: none;
     padding: 10px 10px;
     height: 100%;
