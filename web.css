@@ -40,7 +40,7 @@
     -moz-text-fill-color: transparent;
     display: flex;
     align-items: center;
-    cursor: pointer;  /*When hovering choosing what the cursor looks like */
+   /* cursor: pointer;  /*When hovering choosing what the cursor looks like */
     text-decoration: none; /* Gets rid of the underline of parker spaan*/
     font-size: 2rem;
 }
