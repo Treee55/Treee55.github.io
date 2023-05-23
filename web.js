@@ -9,6 +9,6 @@ menu.addEventListener('click',function(){
 function openContactWindow() {
     // Open a new window with the desired text
     var contactText = "Contact information: \n email: parkerspaan@yahoo.com \n GitHub: https://github.com/Treee55/GCUWork";
-    var contactWindow = window.open("", "_blank", "width=400,height=300");
+    var contactWindow = window.open("", "_blank", "width=150,height=100");
     contactWindow.document.write("<p>" + contactText + "</p>");
 }
