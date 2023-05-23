@@ -11,8 +11,46 @@
     </head>
 
     <body>
-        <p>Testing where the iframe ends up</p>
-        <iframe src="index.html" style="border:1px powderblue;" title="Back To Home"></iframe>
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="/" id="navbar__logo">PARKER SPAAN </a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="/index.html" class="navbar__links">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/personal.html" class="navbar__links">Personal</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/" class="navbar__links" onclick="openContactWindow()">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    
+        <!-- Writting section -->
+        <div class="main">
+            <div class="main__container">
+                <div class="main__content">
+                    <h1>Welcome to my personal website</h1>
+                    <h2>Prototype</h2>
+                    <p>Look around and try to break</p>
+                    <button class="main__btn"><a href="/">Get Started</a></button>
+                </div>
+                <div class="main__img--container">
+                    <img src="images/basics.svg" alt="pic" id="main__img"/>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- <iframe src="index.html" height="200" width = "300" style="border:1px powderblue;" title="Back To Home"></iframe>      Great Idea. Need a better website to peek-->
     <script src="web.js"></script>
     </body>
 </html>
